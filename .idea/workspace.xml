@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="af279a41-30c8-4593-bdf2-23af6a78951f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UmVGlrcibcVgfvHbhnrZQqAecA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Drivers" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Drivers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CreateLoanTest">
+    <configuration name="CreateLoanTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Nc.tests.CreateLoanTest" />
+      <module name="NamasteCredit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Nc.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NamasteCredit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Nc.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.Nc.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.Nc.tests.LoginTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MAVEN_REPOSITORY$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NamasteCredit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Nc.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.Nc.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.Nc.tests.LoginTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MAVEN_REPOSITORY$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogoutTest (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NamasteCredit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Nc.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.Nc.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.Nc.tests.LogoutTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MAVEN_REPOSITORY$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogoutTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NamasteCredit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Nc.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.Nc.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.Nc.tests.LogoutTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MAVEN_REPOSITORY$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" nameIsGenerated="true">
+      <module name="NamasteCredit" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <module name="NamasteCredit" />
+      <option name="SUITE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MAVEN_REPOSITORY$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CreateLoanTest" />
+      <item itemvalue="TestNG.&lt;default&gt;" />
+      <item itemvalue="TestNG.LogoutTest" />
+      <item itemvalue="TestNG.LogoutTest (4)" />
+      <item itemvalue="TestNG.LoginTest" />
+      <item itemvalue="TestNG.LoginTest (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CreateLoanTest" />
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.LoginTest (1)" />
+        <item itemvalue="TestNG.LogoutTest" />
+        <item itemvalue="TestNG.LogoutTest (4)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af279a41-30c8-4593-bdf2-23af6a78951f" name="Default Changelist" comment="" />
+      <created>1575961663973</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575961663973</updated>
+      <workItem from="1575961667632" duration="11068000" />
+      <workItem from="1576045545109" duration="2524000" />
+      <workItem from="1576062409141" duration="4454000" />
+      <workItem from="1576145471012" duration="9585000" />
+      <workItem from="1576215713490" duration="517000" />
+      <workItem from="1576217085931" duration="6554000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="383" y="0" width="590" height="726" key="#&lt;default&gt;" timestamp="1575962807996">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="383" y="0" width="590" height="726" key="#&lt;default&gt;/0.0.1366.728@0.0.1366.728" timestamp="1575962807996" />
+    <state x="278" y="24" width="800" height="675" key="#Project_Structure" timestamp="1575962857521">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="278" y="24" width="800" height="675" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1575962857521" />
+    <state x="141" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575962967577">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="141" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1575962967577" />
+    <state x="466" y="71" width="424" height="582" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1575962952046">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="466" y="71" width="424" height="582" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728@0.0.1366.728" timestamp="1575962952046" />
+    <state x="466" y="121" width="424" height="482" key="FileChooserDialogImpl" timestamp="1575962941031">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="466" y="121" width="424" height="482" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1575962941031" />
+    <state width="1320" height="246" key="GridCell.Tab.0.bottom" timestamp="1576233670374">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1320" height="246" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576233670374" />
+    <state width="1320" height="246" key="GridCell.Tab.0.center" timestamp="1576233670373">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1320" height="246" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576233670373" />
+    <state width="1320" height="246" key="GridCell.Tab.0.left" timestamp="1576233670373">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1320" height="246" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576233670373" />
+    <state width="1320" height="246" key="GridCell.Tab.0.right" timestamp="1576233670373">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1320" height="246" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576233670373" />
+    <state width="1320" height="213" key="GridCell.Tab.1.bottom" timestamp="1575974839835">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1320" height="213" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575974839835" />
+    <state width="1320" height="213" key="GridCell.Tab.1.center" timestamp="1575974839835">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1320" height="213" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1575974839835" />
+    <state width="1320" height="213" key="GridCell.Tab.1.left" timestamp="1575974839835">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1320" height="213" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1575974839835" />
+    <state width="1320" height="213" key="GridCell.Tab.1.right" timestamp="1575974839835">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1320" height="213" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1575974839835" />
+    <state x="376" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1576215881683">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="376" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1576215881683" />
+    <state x="453" y="55" width="449" height="613" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576215968472">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="453" y="55" width="449" height="613" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1576215968472" />
+    <state x="457" y="65" width="442" height="593" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1575962297682">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="457" y="65" width="442" height="593" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1575962297682" />
+    <state x="58" y="61" width="1239" height="601" key="new project wizard" timestamp="1576216242018">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="58" y="61" width="1239" height="601" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1576216242018" />
+  </component>
+</project>
