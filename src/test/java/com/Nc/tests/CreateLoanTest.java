@@ -66,7 +66,6 @@ public class CreateLoanTest {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.findElement(By.xpath("//input[@id='pincode']")).sendKeys("560053");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
         driver.findElement(By.xpath("//input[@id='address1']")).sendKeys("sdfvg");
 //        WebElement element = driver.findElement(By.className("btn btn-next btn-fill btn-warning btn-wd"));
 //        Actions actions = new Actions(driver);
