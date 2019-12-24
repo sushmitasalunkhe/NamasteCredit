@@ -22,6 +22,14 @@ public class LoginPage extends Services {
     WebElement Logo;
     @FindBy(xpath = "//h1[@class='page-header17']")
     WebElement header;
+    @FindBy(xpath="//input[@id='remember_me']")
+    WebElement remember_me;
+    @FindBy(xpath = "//a[contains(text(),'Resend Activation?')]")
+    WebElement Resend_Activation;
+    @FindBy (xpath = "//a[@id='forgot_pwd']")
+    WebElement forgot_password;
+    @FindBy(xpath = "//a[contains(text(),'Click here')]")
+    WebElement register_button;
     private String Title="/html/head/title";
 
 

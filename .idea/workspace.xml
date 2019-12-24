@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af279a41-30c8-4593-bdf2-23af6a78951f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/Nc/Base/DatabaseTesingDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/Nc/Base/Services.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Nc/Base/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nc/Base/BaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Nc/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nc/Pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Nc/tests/CreateLoanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nc/tests/CreateLoanTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Nc/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nc/tests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Nc/tests/LogoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nc/tests/LogoutTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Nc/Base/BaseClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Nc/Pages/CreateLoanPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Nc/Pages/HomePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Nc/Pages/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Nc/Pages/LogoutPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Nc/tests/CreateLoanTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Nc/tests/LoginTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Nc/tests/LogoutTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,7 +254,8 @@
       <workItem from="1576818295153" duration="1196000" />
       <workItem from="1577077171006" duration="3373000" />
       <workItem from="1577103911799" duration="680000" />
-      <workItem from="1577164743352" duration="653000" />
+      <workItem from="1577164743352" duration="2110000" />
+      <workItem from="1577183221707" duration="1178000" />
     </task>
     <servers />
   </component>
@@ -334,10 +319,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1320" height="213" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1575974839835" />
-    <state x="376" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1577166238605">
+    <state x="376" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1577183220668">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="376" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577166238605" />
+    <state x="376" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577183220668" />
     <state x="453" y="55" width="449" height="613" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576215968472">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
