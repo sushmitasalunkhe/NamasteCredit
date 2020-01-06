@@ -11,11 +11,11 @@ import org.testng.annotations.Test;
 public class LoginTest extends BaseClass {
     LoginPage loginPage;
     @DataProvider
-    public static Object[][] validCredentials() { return new Object[][]{{"sushb@nc.com", "123sush#"}}; }
+    public static Object[][] validCredentials() { return new Object[][]{{"admin@nc.com", "super2017@"}}; }
 
     @DataProvider
     public static Object[][] invalidCredentials() {
-        return new Object[][]{{"abc", "abc"}};
+        return new Object[][]{{"admin@nc.com", "SUPER2017@"}};
     }
 
 
@@ -40,15 +40,15 @@ public class LoginTest extends BaseClass {
 
     @Test(priority = 3, dataProvider ="validCredentials")
     public void loginTestValid(String un,String pwd) {
-        loginPage.login(un,pwd);
+        loginPage.validlogin(un,pwd);
     }
     @Test(priority = 4, dataProvider ="invalidCredentials")
     public void loginTestInvalid(String un,String pwd) {
-        loginPage.login(un,pwd);
+        loginPage.Invalidlogin(un,pwd);
     }
 
     @AfterMethod
     public void tearDown() {
-        driver.quit();
+        //driver.quit();
     }
 }

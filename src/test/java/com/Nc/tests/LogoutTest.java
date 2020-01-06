@@ -20,7 +20,7 @@ public class LogoutTest extends BaseClass {
     public void setUp() {
         initialization();
         loginPage = new LoginPage(driver);
-        logoutPage = loginPage.login("SushLender@testnc.com","123sush#");
+        logoutPage = loginPage.validlogin("SushLender@testnc.com","123sush#");
     }
 
     @Test(priority = 1)
