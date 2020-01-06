@@ -52,6 +52,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    =======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JWAF-master" />
+    &gt;&gt;&gt;&gt;&gt;&gt;&gt; refs/remotes/origin/master
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -63,9 +66,9 @@
       <recent name="$PROJECT_DIR$/Drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.loginPageTitleTest">
-    <configuration name="reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Nc.Base.reverse" />
+  <component name="RunManager" selected="TestNG.LoginTest">
+    <configuration name="CreateLoanTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Nc.tests.CreateLoanTest" />
       <module name="NamasteCredit" />
       <extension name="coverage">
         <pattern>
@@ -145,6 +148,14 @@
       </method>
     </configuration>
     <configuration name="LoginTest.loginPageTitleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginTestValid" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NamasteCredit" />
       <extension name="coverage">
         <pattern>
@@ -155,7 +166,7 @@
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.Nc.tests" />
       <option name="MAIN_CLASS_NAME" value="com.Nc.tests.LoginTest" />
-      <option name="METHOD_NAME" value="loginPageTitleTest" />
+      <option name="METHOD_NAME" value="loginTestValid" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -235,7 +246,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.reverse" />
+      <item itemvalue="Application.CreateLoanTest" />
       <item itemvalue="Java Scratch.Unnamed" />
       <item itemvalue="Java Scratch.reverse" />
       <item itemvalue="TestNG.&lt;default&gt;" />
@@ -247,8 +258,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.LoginTest.loginPageTitleTest" />
-        <item itemvalue="Application.reverse" />
         <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.LoginTest.loginTestValid" />
+        <item itemvalue="TestNG.LoginTest.crmLogoImageTest" />
         <item itemvalue="TestNG.LoginTest.loginTestValid" />
         <item itemvalue="TestNG.LoginTest.crmLogoImageTest" />
       </list>
@@ -295,6 +307,8 @@
       <workItem from="1577682952992" duration="603000" />
       <workItem from="1578049082529" duration="1439000" />
       <workItem from="1578306890567" duration="538000" />
+      <workItem from="1577164743352" duration="2110000" />
+      <workItem from="1577183221707" duration="1178000" />
     </task>
     <servers />
   </component>
@@ -342,6 +356,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="466" y="121" width="424" height="482" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578307349706" />
+    <state x="310" y="291" width="736" height="142" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1576575577898">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="310" y="291" width="736" height="142" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1576575577898" />
+    <state x="466" y="121" width="424" height="482" key="FileChooserDialogImpl" timestamp="1576739646709">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="466" y="121" width="424" height="482" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576739646709" />
     <state width="1320" height="238" key="GridCell.Tab.0.bottom" timestamp="1577094264696">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -382,6 +404,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="376" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577446561805" />
+    <state x="376" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1577183220668">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="376" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577183220668" />
+    &gt;&gt;&gt;&gt;&gt;&gt;&gt; refs/remotes/origin/master
     <state x="453" y="55" width="449" height="613" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576215968472">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -402,5 +429,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1577682971173" />
+    <state x="58" y="61" width="1239" height="601" key="new project wizard" timestamp="1576578149089">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="58" y="61" width="1239" height="601" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1576578149089" />
+    <state x="428" y="0" width="500" height="726" key="refactoring.ChangeSignatureDialog" timestamp="1576755496938">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="428" y="0" width="500" height="726" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1576755496938" />
   </component>
 </project>
