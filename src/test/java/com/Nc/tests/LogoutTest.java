@@ -19,7 +19,7 @@ public class LogoutTest extends BaseClass {
     @BeforeMethod
     public void setUp() {
         initialization();
-        loginPage = new LoginPage();
+        loginPage = new LoginPage(driver);
         logoutPage = loginPage.login("SushLender@testnc.com","123sush#");
     }
 

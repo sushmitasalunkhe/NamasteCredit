@@ -5,19 +5,24 @@ import com.Nc.Pages.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class LoginTest extends BaseClass {
     LoginPage loginPage;
+    @DataProvider
+    public static Object[][] validCredentials() { return new Object[][]{{"sushb@nc.com", "123sush#"}}; }
 
-    public LoginTest() {
-        super();
+    @DataProvider
+    public static Object[][] invalidCredentials() {
+        return new Object[][]{{"abc", "abc"}};
     }
+
 
     @BeforeMethod
     public void setUp() {
         initialization();
-        loginPage = new LoginPage();
+        loginPage = new LoginPage(driver);
     }
 
     @Test(priority = 1)
@@ -33,11 +38,14 @@ public class LoginTest extends BaseClass {
         Assert.assertTrue(flag);
     }
 
-    @Test(priority = 3)
-    public void loginTest() {
-        loginPage.login("admin@nc.com","super2017@");
+    @Test(priority = 3, dataProvider ="validCredentials")
+    public void loginTestValid(String un,String pwd) {
+        loginPage.login(un,pwd);
     }
-
+    @Test(priority = 4, dataProvider ="invalidCredentials")
+    public void loginTestInvalid(String un,String pwd) {
+        loginPage.login(un,pwd);
+    }
 
     @AfterMethod
     public void tearDown() {

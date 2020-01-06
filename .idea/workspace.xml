@@ -2,14 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af279a41-30c8-4593-bdf2-23af6a78951f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Nc/Base/DatabaseTesingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Nc/Base/Services.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Nc/Base/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nc/Base/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Nc/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nc/Pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Nc/tests/CreateLoanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nc/tests/CreateLoanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Nc/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nc/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Nc/tests/LogoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nc/tests/LogoutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Nc/Base/BaseClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Nc/Pages/CreateLoanPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Nc/Pages/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Nc/Pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Nc/Pages/LogoutPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Nc/tests/CreateLoanTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Nc/tests/LoginTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Nc/tests/LogoutTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,23 +51,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Drivers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/Drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CreateLoanTest">
-    <configuration name="CreateLoanTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Nc.tests.CreateLoanTest" />
+  <component name="RunManager" selected="TestNG.LoginTest.loginPageTitleTest">
+    <configuration name="reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Nc.Base.reverse" />
       <module name="NamasteCredit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Nc.tests.*" />
+          <option name="PATTERN" value="com.Nc.Base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,28 +77,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Unnamed" type="Java Scratch" nameIsGenerated="true">
       <module name="NamasteCredit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Nc.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.Nc.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.Nc.tests.LoginTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="$MAVEN_REPOSITORY$" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
+      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/src/test/java/com/Nc/Base/reverse.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reverse" type="Java Scratch">
+      <module name="NamasteCredit" />
+      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/src/test/java/com/Nc/Base/reverse.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,7 +117,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogoutTest (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.crmLogoImageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NamasteCredit" />
       <extension name="coverage">
         <pattern>
@@ -118,9 +127,10 @@
       </extension>
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.Nc.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.Nc.tests.LogoutTest" />
+      <option name="MAIN_CLASS_NAME" value="com.Nc.tests.LoginTest" />
+      <option name="METHOD_NAME" value="crmLogoImageTest" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="$MAVEN_REPOSITORY$" />
       <option name="OUTPUT_DIRECTORY" value="" />
@@ -134,7 +144,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogoutTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.loginPageTitleTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NamasteCredit" />
       <extension name="coverage">
         <pattern>
@@ -144,9 +154,37 @@
       </extension>
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.Nc.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.Nc.tests.LogoutTest" />
+      <option name="MAIN_CLASS_NAME" value="com.Nc.tests.LoginTest" />
+      <option name="METHOD_NAME" value="loginPageTitleTest" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MAVEN_REPOSITORY$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginTestValid" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NamasteCredit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Nc.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.Nc.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.Nc.tests.LoginTest" />
+      <option name="METHOD_NAME" value="loginTestValid" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="$MAVEN_REPOSITORY$" />
       <option name="OUTPUT_DIRECTORY" value="" />
@@ -197,20 +235,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CreateLoanTest" />
+      <item itemvalue="Application.reverse" />
+      <item itemvalue="Java Scratch.Unnamed" />
+      <item itemvalue="Java Scratch.reverse" />
       <item itemvalue="TestNG.&lt;default&gt;" />
-      <item itemvalue="TestNG.LogoutTest" />
-      <item itemvalue="TestNG.LogoutTest (4)" />
       <item itemvalue="TestNG.LoginTest" />
-      <item itemvalue="TestNG.LoginTest (1)" />
+      <item itemvalue="TestNG.LoginTest.loginTestValid" />
+      <item itemvalue="TestNG.LoginTest.crmLogoImageTest" />
+      <item itemvalue="TestNG.LoginTest.loginPageTitleTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CreateLoanTest" />
+        <item itemvalue="TestNG.LoginTest.loginPageTitleTest" />
+        <item itemvalue="Application.reverse" />
         <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.LoginTest (1)" />
-        <item itemvalue="TestNG.LogoutTest" />
-        <item itemvalue="TestNG.LogoutTest (4)" />
+        <item itemvalue="TestNG.LoginTest.loginTestValid" />
+        <item itemvalue="TestNG.LoginTest.crmLogoImageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +282,19 @@
       <workItem from="1576145471012" duration="9585000" />
       <workItem from="1576215713490" duration="517000" />
       <workItem from="1576217085931" duration="6554000" />
-      <workItem from="1576471534537" duration="615000" />
+      <workItem from="1576471534537" duration="11657000" />
+      <workItem from="1576559033582" duration="16501000" />
+      <workItem from="1576644120783" duration="10344000" />
+      <workItem from="1576730776337" duration="17420000" />
+      <workItem from="1576818295153" duration="1196000" />
+      <workItem from="1577077171006" duration="3373000" />
+      <workItem from="1577103911799" duration="680000" />
+      <workItem from="1577164743352" duration="653000" />
+      <workItem from="1577354479618" duration="1201000" />
+      <workItem from="1577446546605" duration="2083000" />
+      <workItem from="1577682952992" duration="603000" />
+      <workItem from="1578049082529" duration="1439000" />
+      <workItem from="1578306890567" duration="538000" />
     </task>
     <servers />
   </component>
@@ -258,34 +310,54 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="278" y="24" width="800" height="675" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1575962857521" />
-    <state x="141" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575962967577">
+    <state x="388" y="61" width="579" height="598" key="#Unnamed" timestamp="1577447637274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="141" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1575962967577" />
+    <state x="388" y="61" width="579" height="598" key="#Unnamed/0.0.1366.728@0.0.1366.728" timestamp="1577447637274" />
+    <state x="388" y="61" width="579" height="598" key="#Unnamed_(1)" timestamp="1577447701738">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="388" y="61" width="579" height="598" key="#Unnamed_(1)/0.0.1366.728@0.0.1366.728" timestamp="1577447701738" />
+    <state x="141" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577448136279">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="141" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1577448136279" />
     <state x="466" y="71" width="424" height="582" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1575962952046">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="466" y="71" width="424" height="582" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728@0.0.1366.728" timestamp="1575962952046" />
-    <state x="466" y="121" width="424" height="482" key="FileChooserDialogImpl" timestamp="1575962941031">
+    <state x="415" y="150" width="525" height="421" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1577447568127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="466" y="121" width="424" height="482" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1575962941031" />
-    <state width="1320" height="246" key="GridCell.Tab.0.bottom" timestamp="1576233670374">
+    <state x="415" y="150" width="525" height="421" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1577447568127" />
+    <state x="310" y="291" width="736" height="142" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1576575577898">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="246" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576233670374" />
-    <state width="1320" height="246" key="GridCell.Tab.0.center" timestamp="1576233670373">
+    <state x="310" y="291" width="736" height="142" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1576575577898" />
+    <state x="388" y="61" width="593" height="598" key="#reverse" timestamp="1577447746251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="246" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576233670373" />
-    <state width="1320" height="246" key="GridCell.Tab.0.left" timestamp="1576233670373">
+    <state x="388" y="61" width="593" height="598" key="#reverse/0.0.1366.728@0.0.1366.728" timestamp="1577447746251" />
+    <state x="466" y="121" width="424" height="482" key="FileChooserDialogImpl" timestamp="1578307349706">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="246" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576233670373" />
-    <state width="1320" height="246" key="GridCell.Tab.0.right" timestamp="1576233670373">
+    <state x="466" y="121" width="424" height="482" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578307349706" />
+    <state width="1320" height="238" key="GridCell.Tab.0.bottom" timestamp="1577094264696">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="246" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576233670373" />
+    <state width="1320" height="238" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577094264696" />
+    <state width="1320" height="238" key="GridCell.Tab.0.center" timestamp="1577094264696">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1320" height="238" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577094264696" />
+    <state width="1320" height="238" key="GridCell.Tab.0.left" timestamp="1577094264695">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1320" height="238" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577094264695" />
+    <state width="1320" height="238" key="GridCell.Tab.0.right" timestamp="1577094264696">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1320" height="238" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577094264696" />
     <state width="1320" height="213" key="GridCell.Tab.1.bottom" timestamp="1575974839835">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -302,10 +374,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1320" height="213" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1575974839835" />
-    <state x="376" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1576471536439">
+    <state x="187" y="0" key="SettingsEditor" timestamp="1578307436945">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="376" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1576471536439" />
+    <state x="187" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578307436945" />
+    <state x="376" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1577446561805">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="376" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577446561805" />
     <state x="453" y="55" width="449" height="613" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576215968472">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -314,9 +390,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="457" y="65" width="442" height="593" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1575962297682" />
-    <state x="58" y="61" width="1239" height="601" key="new project wizard" timestamp="1576216242018">
+    <state x="58" y="61" width="1239" height="601" key="new project wizard" timestamp="1577447824416">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="58" y="61" width="1239" height="601" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1576216242018" />
+    <state x="58" y="61" width="1239" height="601" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1577447824416" />
+    <state x="428" y="0" width="500" height="726" key="refactoring.ChangeSignatureDialog" timestamp="1576755496938">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="428" y="0" width="500" height="726" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1576755496938" />
+    <state x="346" y="49" key="search.everywhere.popup" timestamp="1577682971173">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1577682971173" />
   </component>
 </project>

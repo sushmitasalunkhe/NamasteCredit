@@ -27,7 +27,7 @@ public class CreateLoanTest {
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
-        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("http://dc.loan2pal.com/login");
         driver.findElement(By.xpath("//input[@id='emailid']")).sendKeys("sushb@testnc.com");
@@ -72,8 +72,13 @@ public class CreateLoanTest {
 //        actions.moveToElement(element).click().build().perform();
         driver.findElement(By.xpath("/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[5]/div[1]/input[2]")).click();
         driver.findElement(By.xpath("//input[@id='t-s-sign']")).click();
-        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-        driver.findElement(By.xpath("/html/body/div[8]/div[2]/div/div[3]/button[2]")).click();
+        driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+       // WebElement el=driver.findElement(By.xpath("/html/body/div[8]/div[2]/div/div[3]"));
+        //driver.switchTo().frame(el);
+       driver.findElement(By.xpath("/html[1]/body[1]/div[8]/div[2]/div[1]/div[1]/button[1]")).click();
+        driver.findElement(By.xpath("//input[@name='next']")).click();
+        driver.findElement(By.xpath("//input[@name='next']")).click();
+        driver.findElement(By.xpath("//input[@id='document-finish']")).click();
         driver.findElement(By.xpath("//button[@class='quick-review btn btn-danger']")).click();
         //driver.findElement(By.className("btn btn-next btn-fill btn-warning btn-wd")).click();
 //        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
