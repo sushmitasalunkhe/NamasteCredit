@@ -20,7 +20,7 @@ public class LoginPage extends BaseClass {
     WebElement password;
     @FindBy(xpath="//input[@id='signup_in']")
     WebElement signinBtn;
-    NoSuchElementException ignored;
+
     @FindBy(xpath = "//div[@class='form-group error']//div[@class='error'][contains(text(),'The Email field must contain a valid email address')]")
     WebElement ErrorMsgforEmail;
 
@@ -49,6 +49,7 @@ public class LoginPage extends BaseClass {
     //Initializing the Page Objects:
     public LoginPage(WebDriver driver) {
        // super(driver);
+        this.driver=driver;
         PageFactory.initElements(driver, this);
     }
 
@@ -66,18 +67,17 @@ public class LoginPage extends BaseClass {
 
 
     public LogoutPage validlogin(String un, String pwd){
-        Username.isDisplayed();
         Username.sendKeys(un);
         password.sendKeys(pwd);
         signinBtn.click();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         String ActualUrl=driver.getCurrentUrl();
-
         AssertJUnit.assertEquals(ActualUrl,ExpectedUrl);
       //  waitForElement(Username);
         return new LogoutPage();
     }
-    public LogoutPage Invalidlogin(String un, String pwd){
+    public void Invalidlogin(String un, String pwd){
+
         Username.isDisplayed();
         Username.sendKeys(un);
         password.sendKeys(pwd);
@@ -98,7 +98,7 @@ public class LoginPage extends BaseClass {
         //  waitForElement(Username);
 
 
-        return new LogoutPage();
+
     }
 
 

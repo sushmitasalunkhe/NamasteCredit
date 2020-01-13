@@ -1,16 +1,19 @@
 package com.Nc.Base;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class BaseClass {
+public class BaseClass  {
     public static WebDriver driver;
 
     // Constant for Database Password
@@ -23,7 +26,12 @@ public class BaseClass {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("http://dc.loan2pal.com/login");
     }
-
+    public void waitForElement(WebElement locator) {
+        new WebDriverWait(driver, 10);
+    }
+    public  void waittill(WebDriver driver){
+        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+    }
     public static int getOtp() throws Exception {
         Connection con = null;
         Statement stmt;

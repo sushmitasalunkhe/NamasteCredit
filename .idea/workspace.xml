@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af279a41-30c8-4593-bdf2-23af6a78951f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Nc/Data/LoginData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Nc/Base/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nc/Base/BaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Nc/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nc/Pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Nc/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nc/tests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Nc/tests/LogoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nc/tests/LogoutTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/NamasteCredit.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Nc/Base/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Nc/Base/BaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Nc/Pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Nc/Pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Nc/tests/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Nc/tests/LoginTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    =======
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../JWAF-master" />
-    &gt;&gt;&gt;&gt;&gt;&gt;&gt; refs/remotes/origin/master
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -54,7 +53,7 @@
       <recent name="$PROJECT_DIR$/Drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.loginTestInvalid">
+  <component name="RunManager" selected="TestNG.LoginTest.loginTestValid">
     <configuration name="Unnamed" type="Java Scratch" nameIsGenerated="true">
       <module name="NamasteCredit" />
       <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/src/test/java/com/Nc/Base/reverse.java" />
@@ -95,7 +94,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.loginPageTitleTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.loginTestValid (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NamasteCredit" />
       <extension name="coverage">
         <pattern>
@@ -106,7 +105,7 @@
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.Nc.tests" />
       <option name="MAIN_CLASS_NAME" value="com.Nc.tests.LoginTest" />
-      <option name="METHOD_NAME" value="loginPageTitleTest" />
+      <option name="METHOD_NAME" value="loginTestValid" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -122,7 +121,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.loginTestInvalid (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.loginTestValid (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NamasteCredit" />
       <extension name="coverage">
         <pattern>
@@ -133,7 +132,7 @@
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.Nc.tests" />
       <option name="MAIN_CLASS_NAME" value="com.Nc.tests.LoginTest" />
-      <option name="METHOD_NAME" value="loginTestInvalid" />
+      <option name="METHOD_NAME" value="loginTestValid" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -149,7 +148,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.loginTestInvalid" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.loginTestValid (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NamasteCredit" />
       <extension name="coverage">
         <pattern>
@@ -160,7 +159,7 @@
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.Nc.tests" />
       <option name="MAIN_CLASS_NAME" value="com.Nc.tests.LoginTest" />
-      <option name="METHOD_NAME" value="loginTestInvalid" />
+      <option name="METHOD_NAME" value="loginTestValid" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -270,19 +269,19 @@
       <item itemvalue="Java Scratch.Unnamed" />
       <item itemvalue="Java Scratch.reverse" />
       <item itemvalue="TestNG.&lt;default&gt;" />
-      <item itemvalue="TestNG.LoginTest" />
-      <item itemvalue="TestNG.LoginTest.loginPageTitleTest (1)" />
       <item itemvalue="TestNG.LoginTest.loginTestValid" />
-      <item itemvalue="TestNG.LoginTest.loginTestInvalid" />
-      <item itemvalue="TestNG.LoginTest.loginTestInvalid (1)" />
+      <item itemvalue="TestNG.LoginTest.loginTestValid (1)" />
+      <item itemvalue="TestNG.LoginTest" />
+      <item itemvalue="TestNG.LoginTest.loginTestValid (2)" />
+      <item itemvalue="TestNG.LoginTest.loginTestValid (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest.loginTestInvalid" />
-        <item itemvalue="TestNG.LoginTest.loginTestInvalid (1)" />
         <item itemvalue="TestNG.LoginTest.loginTestValid" />
+        <item itemvalue="TestNG.LoginTest.loginTestValid (3)" />
+        <item itemvalue="TestNG.LoginTest.loginTestValid (2)" />
         <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.LoginTest.loginPageTitleTest (1)" />
+        <item itemvalue="TestNG.LoginTest.loginTestValid (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -329,6 +328,9 @@
       <workItem from="1578306890567" duration="538000" />
       <workItem from="1577164743352" duration="2110000" />
       <workItem from="1577183221707" duration="1178000" />
+      <workItem from="1578372272095" duration="11293000" />
+      <workItem from="1578396276043" duration="2069000" />
+      <workItem from="1578910903028" duration="4841000" />
     </task>
     <servers />
   </component>
@@ -384,46 +386,50 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="466" y="121" width="424" height="482" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576739646709" />
-    <state width="1324" height="173" key="GridCell.Tab.0.bottom" timestamp="1578316341178">
+    <state width="1324" height="173" key="GridCell.Tab.0.bottom" timestamp="1578919817922">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="173" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578316341178" />
-    <state width="1324" height="173" key="GridCell.Tab.0.center" timestamp="1578316341177">
+    <state width="1324" height="173" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578919817922" />
+    <state width="1324" height="173" key="GridCell.Tab.0.center" timestamp="1578919817921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="173" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578316341177" />
-    <state width="1324" height="173" key="GridCell.Tab.0.left" timestamp="1578316341177">
+    <state width="1324" height="173" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578919817921" />
+    <state width="1324" height="173" key="GridCell.Tab.0.left" timestamp="1578919817921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="173" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578316341177" />
-    <state width="1324" height="173" key="GridCell.Tab.0.right" timestamp="1578316341178">
+    <state width="1324" height="173" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578919817921" />
+    <state width="1324" height="173" key="GridCell.Tab.0.right" timestamp="1578919817922">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="173" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578316341178" />
-    <state width="1320" height="213" key="GridCell.Tab.1.bottom" timestamp="1575974839835">
+    <state width="1324" height="173" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578919817922" />
+    <state width="1324" height="216" key="GridCell.Tab.1.bottom" timestamp="1578395304805">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="213" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575974839835" />
-    <state width="1320" height="213" key="GridCell.Tab.1.center" timestamp="1575974839835">
+    <state width="1324" height="216" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578395304805" />
+    <state width="1324" height="216" key="GridCell.Tab.1.center" timestamp="1578395304804">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="213" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1575974839835" />
-    <state width="1320" height="213" key="GridCell.Tab.1.left" timestamp="1575974839835">
+    <state width="1324" height="216" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1578395304804" />
+    <state width="1324" height="216" key="GridCell.Tab.1.left" timestamp="1578395304804">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="213" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1575974839835" />
-    <state width="1320" height="213" key="GridCell.Tab.1.right" timestamp="1575974839835">
+    <state width="1324" height="216" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1578395304804" />
+    <state width="1324" height="216" key="GridCell.Tab.1.right" timestamp="1578395304805">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="213" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1575974839835" />
+    <state width="1324" height="216" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1578395304805" />
+    <state x="216" y="21" width="924" height="679" key="Maven.ArtifactSearchDialog" timestamp="1578375727372">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="216" y="21" width="924" height="679" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1578375727372" />
     <state x="187" y="0" key="SettingsEditor" timestamp="1578307436945">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="187" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578307436945" />
-    <state x="376" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1577183220668">
+    <state x="376" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1578910966474">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="376" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577183220668" />
+    <state x="376" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578910966474" />
     <state x="453" y="55" width="449" height="613" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576215968472">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -444,5 +450,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1577682971173" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/Nc/tests/Data.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/Nc/Pages/LoginPage.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="signinBtn" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
