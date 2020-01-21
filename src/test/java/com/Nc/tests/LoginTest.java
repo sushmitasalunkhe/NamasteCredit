@@ -57,7 +57,7 @@ public class LoginTest extends LoginData {
 
         loginPage.validlogin(Email,Password);
     }*/
-   @Test(priority = 3, dataProvider ="ReadVariant")
+   @Test(priority = 3, dataProvider ="LoginPositive")
     public void loginTestValid(String Testid, String Usertype, String Email, String Password) {
         DataSet++;
         System.out.println("Test id running is: "+Testid);
@@ -66,11 +66,19 @@ public class LoginTest extends LoginData {
        System.out.println("password is: "+Password);
         loginPage.validlogin(Email,Password);
     }
+    @Test(priority = 4, dataProvider ="LoginNegative")
+    public void loginTestInvalid(String Testid, String Email, String Password, String ExpectedErrorMsg) {
+        DataSet++;
+        System.out.println("Test id running is: "+Testid);
+        System.out.println("email id is: "+Email);
+        System.out.println("password is: "+Password);
+        loginPage.Invalidlogin(Email,Password,ExpectedErrorMsg);
+    }
 
-    @Test(priority = 4, dataProvider ="invalidCredentials")
+   /* @Test(priority = 4, dataProvider ="invalidCredentials")
     public void loginTestInvalid(String un,String pwd) {
         loginPage.Invalidlogin(un,pwd);
-    }
+    }*/
 
     @AfterMethod
     public void tearDown() {

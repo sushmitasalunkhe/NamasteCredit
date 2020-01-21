@@ -76,7 +76,7 @@ public class LoginPage extends BaseClass {
       //  waitForElement(Username);
         return new LogoutPage();
     }
-    public void Invalidlogin(String un, String pwd){
+    public void Invalidlogin(String un, String pwd,String ExpectedErrorMsg){
 
         Username.isDisplayed();
         Username.sendKeys(un);
@@ -85,11 +85,13 @@ public class LoginPage extends BaseClass {
 
         if (ElementPresent(ErrorMsgforEmail)){
             String ActualErrorMsgforEmail=ErrorMsgforEmail.getText();
-            AssertJUnit.assertEquals(ActualErrorMsgforEmail,ExpectedErrorMsgforEmail);
+            System.out.println("Error message is showing as: "+ActualErrorMsgforEmail);
+            AssertJUnit.assertEquals(ActualErrorMsgforEmail,ExpectedErrorMsg);
 
         }
         else if(ElementPresent(ErrorForWrongPwd)){
             String ActualErrorforWrongPwd=ErrorForWrongPwd.getText();
+            System.out.println("Error message is showing as: "+ActualErrorforWrongPwd);
             AssertJUnit.assertEquals(ActualErrorforWrongPwd,ExpectedErrorforWrongPwd);
         }
         AssertJUnit.assertNotSame(ExpectedUrl,driver.getCurrentUrl());
